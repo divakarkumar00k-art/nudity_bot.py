@@ -1,8 +1,8 @@
 import telegram  
-   from telegram.ext import Updater, MessageHandler, Filters, CallbackContext  
-   import cv2  
-   import numpy as np  
-   import tensorflow as tf  
+from telegram.ext import Updater, MessageHandler, Filters, CallbackContext  
+import cv2  
+import numpy as np  
+import tensorflow as tf  
 
    # Load your model and labels here  
    model = tf.keras.models.load_model('nudity_model.pb')  
