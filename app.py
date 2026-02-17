@@ -9,8 +9,8 @@ import telegram
    labels = open('nudity_labels.txt').read().splitlines()  
 
    # Initialize bot  
-   bot = telegram.Bot(token='YOUR_BOT_TOKEN')  
-   updater = Updater(bot_token='YOUR_BOT_TOKEN', use_context=True)  
+   bot = telegram.Bot(token='BOT_TOKEN')  
+   updater = Updater(bot_token='BOT_TOKEN', use_context=True)  
    dispatcher = updater.dispatcher  
 
    def detect_nudity(update, context):  
